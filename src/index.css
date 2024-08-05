@@ -44,6 +44,12 @@ span[role="image"] {
   transition: all 0.3s;
 }
 
+.App.light {
+  --font-color: rgb(33, 33, 33);
+  --background: rgb(255, 255, 255);
+  --background--light: rgb(230, 230, 230);
+}
+
 .App {
   margin: 2rem auto;
   padding: 1rem 2rem;
